@@ -19,6 +19,22 @@ a
   &:hover, &:visited
     color: #2a36b1
 
+.contact
+  text-align: center
+
+.contact-logo
+  width: 60px
+  height: 40px
+  padding: 0 10px
+  g, path
+    fill: #212121
+    stroke: #212121
+
+  a:hover &
+    g, path
+      fill: white
+      stroke: white
+
 .logo
   max-width: 100%
   height: 60px
@@ -42,7 +58,7 @@ a
   margin-bottom: 9rem
 
 .Panel-title
-  @extend .v-spaced
+  @extend .padded, .v-spaced
   font-size: 36px
   text-align: center
   line-height: 42px
@@ -53,9 +69,11 @@ a
   line-height: 24px
 
 .Panel-subtitle
+  @extend .padded
   font-size: 18px
   line-height: 24px
   text-align: center
+  margin-bottom: 5rem
 
 .Panel
   @extend .v-spaced
@@ -73,15 +91,18 @@ a
   .Panel-title
     font-size: 48px
     margin-bottom: 3rem
+    @media(max-width: 600px)
+      font-size: 42px
 
 .profile-img
   position: absolute
   bottom: -30%
   left: 20px
+  width: 256px
   box-shadow: 1px 1px 5px #999
   border-radius: 50%
 
-  @media(max-width: 1320px)
+  @media(max-width: 1000px)
     bottom: -10%
     width: 128px
   

@@ -12,7 +12,16 @@ html(lang="en")
         h3.Panel-subtitle.
           A JavaScript-obsessed fullstack engineer loving all things mobile
           and all things different.
-        img.profile-img(src="cookie.jpeg")
+        .contact
+          a(href="http://twitter.com/wbinnssmith")
+            img.contact-logo(src="logo-twitter.svg")
+          a(href="http://github.com/wbinnssmith")
+            img.contact-logo(src="logo-github.svg")
+          a(href="http://facebook.com/wbinnssmith")
+            img.contact-logo(src="logo-facebook.svg")
+          a(href="http://linkedin.com/in/wbinnssmith")
+            img.contact-logo(src="logo-linkedin.svg")
+        img.profile-img(src="profile.jpg")
 
       h2.Panel-title Here's some stuff I've built.
 
@@ -65,4 +74,8 @@ html(lang="en")
         li.
           <a href="http://nodejs.org/logos/">Node.js</a> is a trademark of
           Joyent, Inc.
+
+  script(src="svg-injector.js")
+  script.
+    SVGInjector(document.querySelectorAll('.contact-logo'))
 

@@ -23,6 +23,24 @@ a:hover,
 a:visited {
   color: #2a36b1;
 }
+.contact {
+  text-align: center;
+}
+.contact-logo {
+  width: 60px;
+  height: 40px;
+  padding: 0 10px;
+}
+.contact-logo g,
+.contact-logo path {
+  fill: #212121;
+  stroke: #212121;
+}
+a:hover .contact-logo g,
+a:hover .contact-logo path {
+  fill: #fff;
+  stroke: #fff;
+}
 .logo {
   max-width: 100%;
   height: 60px;
@@ -41,7 +59,9 @@ a:visited {
   margin: 0 auto;
 }
 .padded,
-.Panel-body {
+.Panel-title,
+.Panel-body,
+.Panel-subtitle {
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -64,6 +84,7 @@ a:visited {
   font-size: 18px;
   line-height: 24px;
   text-align: center;
+  margin-bottom: 5rem;
 }
 .Panel {
   min-height: 40rem;
@@ -84,14 +105,20 @@ a:visited {
   font-size: 48px;
   margin-bottom: 3rem;
 }
+@media (max-width: 600px) {
+  .Panel--main .Panel-title {
+    font-size: 42px;
+  }
+}
 .profile-img {
   position: absolute;
   bottom: -30%;
   left: 20px;
+  width: 256px;
   box-shadow: 1px 1px 5px #999;
   border-radius: 50%;
 }
-@media (max-width: 1320px) {
+@media (max-width: 1000px) {
   .profile-img {
     bottom: -10%;
     width: 128px;
