@@ -122,6 +122,9 @@ a:hover .contact-logo path {
   .profile-img {
     bottom: -10%;
     width: 128px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
   }
 }
 .tech-logos {
