@@ -122,6 +122,8 @@ a:hover .contact-logo path {
   width: 256px;
   box-shadow: 1px 1px 5px #999;
   border-radius: 50%;
+  transition: left 400ms, bottom 400ms, width 400ms;
+  -webkit-transition: left 400ms, bottom 400ms, width 400ms;
 }
 @media (max-width: 1000px) {
   .profile-img {
