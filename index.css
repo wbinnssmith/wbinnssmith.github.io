@@ -27,9 +27,9 @@ a:visited {
   text-align: center;
 }
 .contact-logo {
-  width: 60px;
+  width: 40px;
   height: 40px;
-  padding: 0 10px;
+  margin: 0 10px;
 }
 .contact-logo g,
 .contact-logo path {
