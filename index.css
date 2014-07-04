@@ -101,13 +101,18 @@ a:hover .contact-logo path {
   padding-top: 14rem;
   padding-bottom: 14rem;
 }
+@media (max-width: 600px) {
+  .Panel--main {
+    padding-top: 7rem;
+  }
+}
 .Panel--main .Panel-title {
   font-size: 48px;
   margin-bottom: 3rem;
 }
 @media (max-width: 600px) {
   .Panel--main .Panel-title {
-    font-size: 42px;
+    font-size: 34px;
   }
 }
 .profile-img {
