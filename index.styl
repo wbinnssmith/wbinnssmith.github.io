@@ -59,9 +59,12 @@ a
 
 .Panel-title
   @extend .padded, .v-spaced
-  font-size: 36px
+  font-size: 32px
   text-align: center
-  line-height: 42px
+  line-height: 1.5
+
+  @media(max-width: 600px)
+    font-size: 24px;
 
 .Panel-body
   @extend .padded, .constrained, .v-spaced
@@ -84,7 +87,7 @@ a
 .Panel--main
   position: relative
   color: white
-  background-color: #5677fc
+  background-color: #4285F4
   padding-top: 14rem
   padding-bottom: 14rem
 
@@ -105,15 +108,13 @@ a
   box-shadow: 1px 1px 5px #999
   border-radius: 50%
   transition: left 400ms, bottom 400ms, width 400ms
-  -webkit-transition: left 400ms, bottom 400ms, width 400ms
 
-  @media(max-width: 1000px)
+  @media(max-width: 1150px)
     bottom: -10%
     width: 128px
     left: 50%
     transform: translateX(-50%)
-    -webkit-transform: translateX(-50%)
-  
+
 .tech-logos
   @extend .constrained
   display: flex
@@ -121,13 +122,11 @@ a
 .tech-logo
   flex: 1
   filter: grayscale(100%)
-  -webkit-filter: grayscale(100%)
   height: 70px
   margin: 20px
 
   &:hover
     filter: none
-    -webkit-filter: none
 
 ul
   list-style: none
@@ -135,5 +134,5 @@ ul
 .footer
   font-size: 10px
   padding: 2rem
-    
+
 

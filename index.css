@@ -72,9 +72,14 @@ a:hover .contact-logo path {
   margin-bottom: 9rem;
 }
 .Panel-title {
-  font-size: 36px;
+  font-size: 32px;
   text-align: center;
-  line-height: 42px;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .Panel-title {
+    font-size: 24px;
+  }
 }
 .Panel-body {
   font-size: 14px;
@@ -97,7 +102,7 @@ a:hover .contact-logo path {
 .Panel--main {
   position: relative;
   color: #fff;
-  background-color: #5677fc;
+  background-color: #4285f4;
   padding-top: 14rem;
   padding-bottom: 14rem;
 }
@@ -122,31 +127,38 @@ a:hover .contact-logo path {
   width: 256px;
   box-shadow: 1px 1px 5px #999;
   border-radius: 50%;
-  transition: left 400ms, bottom 400ms, width 400ms;
   -webkit-transition: left 400ms, bottom 400ms, width 400ms;
+          transition: left 400ms, bottom 400ms, width 400ms;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   .profile-img {
     bottom: -10%;
     width: 128px;
     left: 50%;
-    transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 }
 .tech-logos {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 .tech-logo {
-  flex: 1;
-  filter: grayscale(100%);
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
   height: 70px;
   margin: 20px;
 }
 .tech-logo:hover {
-  filter: none;
   -webkit-filter: none;
+          filter: none;
 }
 ul {
   list-style: none;
@@ -155,3 +167,4 @@ ul {
   font-size: 10px;
   padding: 2rem;
 }
+
