@@ -1,0 +1,32 @@
+{
+  "name": "wbinnssmith.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbinnssmith/wbinnssmith.github.io.git"
+  },
+  "keywords": [],
+  "author": "Will Binns-Smith <wbinnssmith@gmail.com> (http://wbinnssmith.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbinnssmith/wbinnssmith.github.io/issues"
+  },
+  "homepage": "https://github.com/wbinnssmith/wbinnssmith.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "browserify": "^11.2.0",
+    "jade": "^1.11.0",
+    "postcss-cli": "^2.1.0",
+    "serve": "^1.4.0",
+    "stylus": "^0.52.4",
+    "watchify": "^3.4.0"
+  },
+  "dependencies": {
+    "svg-injector": "^1.1.3"
+  }
+}
