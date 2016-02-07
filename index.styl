@@ -1,7 +1,8 @@
 * { box-sizing: border-box }
 
 html
-  font-size: 8px
+  font-size: 16px
+  line-height: 24px
 
 body
   margin: 0
@@ -19,8 +20,25 @@ a
   &:hover, &:visited
     color: #2a36b1
 
+pre, code, tt
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace
+
 .contact
   text-align: center
+  margin-bottom: 2rem;
+
+.pgp
+  text-align: center
+  font-size: 1rem
+
+a.link-white
+  color: white;
+
+  &:hover, &:active
+    color rgba(255, 255, 255, 0.8)
+
+  &:active
+    color rgba(255, 255, 255, 0.6)
 
 .contact-logo
   width: 40px
@@ -51,11 +69,11 @@ a
   margin: 0 auto
 
 .padded
-  padding-left: 3rem
-  padding-right: 3rem
+  padding-left: 1.5rem
+  padding-right: 1.5rem
 
 .v-spaced
-  margin-bottom: 9rem
+  margin-bottom: 4.5rem
 
 .Panel-title
   @extend .padded, .v-spaced
@@ -68,35 +86,33 @@ a
 
 .Panel-body
   @extend .padded, .constrained, .v-spaced
-  font-size: 14px
-  line-height: 24px
 
 .Panel-subtitle
   @extend .padded
   font-size: 18px
   line-height: 24px
   text-align: center
-  margin-bottom: 5rem
+  margin-bottom: 2.5rem
 
 .Panel
   @extend .v-spaced
-  min-height: 40rem
+  min-height: 20rem
   @media(max-width: 600px)
-    min-height: 30rem
+    min-height: 15rem
 
 .Panel--main
   position: relative
   color: white
   background-color: #4285F4
-  padding-top: 14rem
-  padding-bottom: 14rem
+  padding-top: 5rem
+  padding-bottom: 5rem
 
   @media(max-width: 600px)
-    padding-top: 7rem
+    padding-top: 3.5rem
 
   .Panel-title
-    font-size: 48px
-    margin-bottom: 3rem
+    font-size: 3rem
+    margin-bottom: 1.5rem
     @media(max-width: 600px)
       font-size: 34px
 
@@ -133,6 +149,6 @@ ul
 
 .footer
   font-size: 10px
-  padding: 2rem
+  padding: 1rem
 
 
