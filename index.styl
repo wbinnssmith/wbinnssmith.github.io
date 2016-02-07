@@ -10,6 +10,20 @@ body
   color: #444
   font-family: 'Open Sans', sans-serif
 
+.padded
+  padding-left: 1.5rem
+  padding-right: 1.5rem
+
+.v-spaced
+  margin-bottom: 4.5rem
+
+.u-texthidden
+  font-size: 0 !important
+
+.constrained
+  max-width: 800px
+  margin: 0 auto
+
 h1, h2, h3
   margin: 0
 
@@ -25,11 +39,15 @@ pre, code, tt
 
 .contact
   text-align: center
-  margin-bottom: 2rem;
+  margin-bottom: 2rem
 
 .pgp
+  @extend .padded
   text-align: center
   font-size: 1rem
+
+.fingerprint
+  white-space: pre-wrap
 
 a.link-white
   color: white;
@@ -60,20 +78,6 @@ a.link-white
 .img-block
   display: block
   width: 100%
-
-.u-texthidden
-  font-size: 0 !important
-
-.constrained
-  max-width: 800px
-  margin: 0 auto
-
-.padded
-  padding-left: 1.5rem
-  padding-right: 1.5rem
-
-.v-spaced
-  margin-bottom: 4.5rem
 
 .Panel-title
   @extend .padded, .v-spaced

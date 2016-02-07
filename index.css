@@ -11,6 +11,29 @@ body {
   color: #444;
   font-family: 'Open Sans', sans-serif;
 }
+.padded,
+.pgp,
+.Panel-title,
+.Panel-body,
+.Panel-subtitle {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.v-spaced,
+.Panel-title,
+.Panel-body,
+.Panel {
+  margin-bottom: 4.5rem;
+}
+.u-texthidden {
+  font-size: 0 !important;
+}
+.constrained,
+.Panel-body,
+.tech-logos {
+  max-width: 800px;
+  margin: 0 auto;
+}
 h1,
 h2,
 h3 {
@@ -36,6 +59,9 @@ tt {
 .pgp {
   text-align: center;
   font-size: 1rem;
+}
+.fingerprint {
+  white-space: pre-wrap;
 }
 a.link-white {
   color: #fff;
@@ -69,28 +95,6 @@ a:hover .contact-logo path {
 .img-block {
   display: block;
   width: 100%;
-}
-.u-texthidden {
-  font-size: 0 !important;
-}
-.constrained,
-.Panel-body,
-.tech-logos {
-  max-width: 800px;
-  margin: 0 auto;
-}
-.padded,
-.Panel-title,
-.Panel-body,
-.Panel-subtitle {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-.v-spaced,
-.Panel-title,
-.Panel-body,
-.Panel {
-  margin-bottom: 4.5rem;
 }
 .Panel-title {
   font-size: 32px;
@@ -144,7 +148,6 @@ a:hover .contact-logo path {
   width: 256px;
   box-shadow: 1px 1px 5px #999;
   border-radius: 50%;
-  -webkit-transition: left 400ms, bottom 400ms, width 400ms;
   transition: left 400ms, bottom 400ms, width 400ms;
 }
 @media (max-width: 1150px) {
@@ -152,29 +155,20 @@ a:hover .contact-logo path {
     bottom: -10%;
     width: 128px;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
+    transform: translateX(-50%);
   }
 }
 .tech-logos {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 .tech-logo {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  flex: 1;
+  filter: grayscale(100%);
   height: 70px;
   margin: 20px;
 }
 .tech-logo:hover {
-  -webkit-filter: none;
-          filter: none;
+  filter: none;
 }
 ul {
   list-style: none;
@@ -183,4 +177,3 @@ ul {
   font-size: 10px;
   padding: 1rem;
 }
-
