@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/wbinnssmith
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://wbinnssmith.com
+  * I am wbinnssmith (https://keybase.io/wbinnssmith) on keybase.
+  * I have a public key with fingerprint E618 89CA 1B44 2B7B C906  A386 4CCA 64BD 52BF CD1C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010133dd03f114dbf949514c710509e5bdeafd93ffc720bf3fe163237106f1fa19870a",
+            "fingerprint": "e61889ca1b442b7bc906a3864cca64bd52bfcd1c",
+            "host": "keybase.io",
+            "key_id": "4cca64bd52bfcd1c",
+            "kid": "010133dd03f114dbf949514c710509e5bdeafd93ffc720bf3fe163237106f1fa19870a",
+            "uid": "ec0f10459059d02b9754ec280f5c5f19",
+            "username": "wbinnssmith"
+        },
+        "revoke": {
+            "sig_ids": [
+                "a8ea41e4573913319e29925094c264d227810897c41428360ebe325b8d3ae09f0f"
+            ]
+        },
+        "service": {
+            "hostname": "wbinnssmith.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1454816997,
+    "expire_in": 157680000,
+    "prev": "f18025698788c7b635b8e424283b5fb5b850839282cf7da4035e684a2251493e",
+    "seqno": 20,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMJqAnicrZJPbBVFHMdfEUttBKuYFwRCyJTA5Vnm7+7MI2liYi0FL4TYSqs+Z2Zn
+Xjdtd19391UaaNAD4UCQkF64YEgTtD2gYBBTTUSNGhLiSzDGfxhiooWExIMFQ0No
+cPZFT3p0L5uZ+f4+85nfzBerHyq0t1w+eHHdob3dquXKZ/fqhf6LnywcACoOJkH5
+ABgxzZ8ZDUyaVUbCAJQBRBAREgSQWIRooKyggiGqfQQZFIapwEgbCGKt9jFUlliD
+PIKJW/csshIJ7kMJSsCGUdUktSSMMoc1HuJcaIkUpVj5SgvoScI9qrX0qAoYVlYH
+SLvC4TjNK5yckqnpCmM35waVpt5/5P9n73oTZzS0CFImIBMBxEr4jBqNObRMM4tE
+HkxNEskx49KvqTCK0nQszIbBVAkkZiIeMXlr07DqvFNQHgKSG0mRocwnwpkiYbAQ
+2LlRjT0aYOxzBLnwNUUUc+JBowzBTPGASAOFhRa87Nhu04lQN+F5o/4t0KXjMWdX
+S+Is1vGoWxzOslpazsWyyVozbVTlb07FFQbuplzFhEnSMI5AGbmkzsIcjCijHHlC
++CVg9tfCxFTCPMF8j0P35fuYCYe0iEPMPNdEzrWvPOLEDcX5SRSzyo0Y5ERgjrX1
+A0khYcbjVGLsLkkQA/KTjUcxKGMHzWTVMV3zIpnVEwOmPv90aGWhpb3Q+vCK/AkX
+2h/p+Odh/9hYdadt7pnOvqXim69u7Ds68NYLT87Nzt6Plqs9WzsaJ4fmi+9v3rZ6
+dP5065lHb55s7Lm0Y63svLF4s7Pn3vkV1359vNL2w4Pzi4PPby96d+CheP2ug6Xx
+6Z3jgJ7r3PPcK8XG06f7Z5bo7ut/nPip58sXq43pn787XKTvLV36/sHZ4vLg/sNz
+vy9Odn9TOL5mQ3Kh7dTkcv3ah1e6ym+c8H+bmo3Sy5tubRg4s/X1d/oXx3vvb/lq
+y76rC38eeWlXY/sR/fbG1oXqwPp1H625PXh3ukNePTtzNJy6Md96t56N3H4s+Xbv
+B/Oldy/07vA7nohP7Vxb+OX419PHyFPPbj73cV/39ZUzt1Yd272p9y8ABloY
+=MbHY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wbinnssmith
+
+==================================================================
+
