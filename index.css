@@ -13,6 +13,7 @@ body {
 }
 .padded,
 .pgp,
+.recent-posts,
 .Panel-title,
 .Panel-body,
 .Panel-subtitle {
@@ -20,10 +21,14 @@ body {
   padding-right: 1.5rem;
 }
 .v-spaced,
+.recent-posts,
 .Panel-title,
 .Panel-body,
 .Panel {
-  margin-bottom: 4.5rem;
+  margin-bottom: 6rem;
+}
+.v-half {
+  margin-bottom: 3rem;
 }
 .u-texthidden {
   font-size: 0 !important;
@@ -32,7 +37,8 @@ body {
 .Panel-body,
 .tech-logos {
   max-width: 800px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1,
 h2,
@@ -40,12 +46,12 @@ h3 {
   margin: 0;
 }
 a {
-  color: #5677fc;
+  color: #4285f4;
   text-decoration: none;
 }
 a:hover,
-a:visited {
-  color: #2a36b1;
+a:active {
+  color: rgba(66,133,244,0.8);
 }
 pre,
 code,
@@ -63,14 +69,21 @@ tt {
 .fingerprint {
   white-space: pre-wrap;
 }
-a.link-white {
+.recent-posts {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.recent-posts li {
+  margin-bottom: 2rem;
+}
+.link-white {
   color: #fff;
 }
-a.link-white:hover,
-a.link-white:active {
+.link-white:hover,
+.link-white:active {
   color: rgba(255,255,255,0.8);
 }
-a.link-white:active {
+.link-white:active {
   color: rgba(255,255,255,0.6);
 }
 .contact-logo {
@@ -87,6 +100,10 @@ a:hover .contact-logo g,
 a:hover .contact-logo path {
   fill: #fff;
   stroke: #fff;
+}
+.bitbucket-logo {
+  max-width: 100%;
+  height: 120px;
 }
 .logo {
   max-width: 100%;
@@ -148,6 +165,7 @@ a:hover .contact-logo path {
   width: 256px;
   box-shadow: 1px 1px 5px #999;
   border-radius: 50%;
+  -webkit-transition: left 400ms, bottom 400ms, width 400ms;
   transition: left 400ms, bottom 400ms, width 400ms;
 }
 @media (max-width: 1150px) {
@@ -155,20 +173,32 @@ a:hover .contact-logo path {
     bottom: -10%;
     width: 128px;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 }
 .tech-logos {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .tech-logo {
-  flex: 1;
-  filter: grayscale(100%);
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
   height: 70px;
   margin: 20px;
 }
 .tech-logo:hover {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 ul {
   list-style: none;
@@ -177,3 +207,4 @@ ul {
   font-size: 10px;
   padding: 1rem;
 }
+

@@ -39,13 +39,41 @@ html(lang="en")
             pre.fingerprint
               E618 89CA 1B44 2B7B C906 A386 4CCA 64BD 52BF CD1C
 
-      h2.Panel-title I'm all about small modules and big ideas. <br /> Here's some stuff I've built.
+      h2.Panel-title I'm all about small modules and big ideas. <br /> Here's the latest from me.
+      ul.recent-posts
+        li
+          a(href="https://developer.atlassian.com/blog/2015/11/what-the-web-platform-can-learn-from-nodejs/").
+            What the web platform can learn from Node.js
+        li
+          a(href="https://developer.atlassian.com/blog/2015/11/what-the-web-platform-can-learn-from-nodejs/").
+            What your frontend app can learn from Node.js
+        li
+          a(href="http://www.slideshare.net/wbinnssmith/what-the-web-platform-and-your-app-can-learn-from-nodejs").
+            Slides: What the web platform (and your app!) can learn from Node.js
+        li
+          a(href="https://medium.com/@wbinnssmith/why-version-control-isnt-package-management-a-brief-history-5d40c524ba3e#.2mzcgjkoy").
+            Why Version Control isn't Package Management: A brief history
+
+      h2.Panel-title And here's some stuff I've built.
+
+      .Panel
+        h2.Panel-title.u-texthidden.padded
+          | Bitbucket
+          img.bitbucket-logo(src="bitbucket-logo-blue.svg")
+        .Panel-body.v-half
+          p.
+            At Atlassian I developed a single-page Backbone Marionette frontend to Bitbucket's git-backed Snippets and the API endpoints in django to integrate with our git backends.
+          p.
+            I enabled Atlassian's cross-product component library, AUI, to export ES Modules and worked regularly with our Design Platform team in Sydney to publish it to npm as a single package with many individual modules. This work enabled all Atlassian products and the large ecosystem of add-on developers to ship only the components necessary for their apps.
+          p.
+            I co-authored Bitbucket's frontend implementation of Atlassian Connect, a plugin architecture for our cloud products which uses the `postMessage` API to securely communicate between Bitbucket and embedded plugin frames.
+        img.img-block(src="snippets.jpg")
 
       .Panel
         h2.Panel-title.u-texthidden.padded
           | Bonobos
           img.logo(src="logo-bonobos.svg")
-        .Panel-body
+        .Panel-body.v-half
           p.
             I developed much of the frontend shopping cart functionality on <a
               href="http://bonobos.com">Bonobos.com</a>, which eliminated a full page load from the store and raised customer conversion by a statistically significant percentage.
@@ -57,7 +85,7 @@ html(lang="en")
             incredibly proud of the technology team we've built in our NYC headquarters.
         img.img-block(src="bonobos-cart.jpg")
 
-      .Panel
+      .Panel.v-half
         h2.Panel-title.u-texthidden.padded
           | AYR
           img.logo(src="logo-ayr.svg")
