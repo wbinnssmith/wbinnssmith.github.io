@@ -19,11 +19,11 @@
   "homepage": "https://github.com/wbinnssmith/wbinnssmith.github.io#readme",
   "devDependencies": {
     "autoprefixer": "^6.0.3",
-    "browserify": "^11.2.0",
+    "browserify": "^13.0.0",
     "jade": "^1.11.0",
     "postcss-cli": "^2.1.0",
     "serve": "^1.4.0",
-    "stylus": "^0.52.4",
+    "stylus": "^0.54.2",
     "watchify": "^3.4.0"
   },
   "dependencies": {
